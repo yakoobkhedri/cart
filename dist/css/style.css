@@ -1,0 +1,10 @@
+.cartRow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cartName{
+   color: #005cbf;
+    font-size: 24px;
+    font-weight: bold;
+}

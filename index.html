@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cart</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<header class="container-fluid border-bottom bg-dark text-white pt-3">
+    <nav class="d-flex justify-content-around align-items-center">
+        <ul class="d-flex list-unstyled justify-content-around w-50 align-items-center font-weight-bold h3">
+            <li class="h2"><a>home</a></li>
+            <li class="h2"><a>store</a></li>
+            <li class="h2"><a>about</a></li>
+        </ul>
+        <h1>the generics</h1>
+    </nav>
+</header>
+
+<section>
+    <h2 class="text-center my-5">music</h2>
+    <div class="d-flex justify-content-around flex-wrap">
+        <div class="card my-2">
+            <span class="text-center text-primary h3 productName">album 1</span>
+            <img src="dist/img/mask.PNG" class="productImage">
+            <div class="d-flex justify-content-around py-3 align-items-center">
+                <span class="text-success h3 productPrice">22 $</span>
+                <button class="btn btn-warning addToCartBtn">add to cart</button>
+            </div>
+        </div>
+        <div class="card my-2">
+            <span class="text-center text-primary h3 productName">album 2</span>
+            <img src="dist/img/maskmive.PNG" class="productImage">
+            <div class="d-flex justify-content-around py-3 align-items-center">
+                <span class="text-success h3 productPrice">32 $</span>
+                <button class="btn btn-warning addToCartBtn">add to cart</button>
+            </div>
+        </div>
+        <div class="card my-2">
+            <span class="text-center text-primary h3 productName">album 3</span>
+            <img src="dist/img/namakbadan.PNG" class="productImage">
+            <div class="d-flex justify-content-around py-3 align-items-center">
+                <span class="text-success h3 productPrice">26 $</span>
+                <button class="btn btn-warning addToCartBtn">add to cart</button>
+            </div>
+        </div>
+        <div class="card my-2">
+            <span class="text-center text-primary h3 productName">album 4</span>
+            <img src="dist/img/mask.PNG" class="productImage">
+            <div class="d-flex justify-content-around py-3 align-items-center">
+                <span class="text-success h3 productPrice">12 $</span>
+                <button class="btn btn-warning addToCartBtn">add to cart</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-5">
+    <h2 class="text-center">cart</h2>
+    <div class="d-flex justify-content-around align-items-center mt-5">
+        <span class="h2 text-primary">item</span>
+        <span class="h2 text-primary">price</span>
+        <span class="h2 text-primary">quantity</span>
+    </div>
+    <div class="mt-5 cartItems">
+
+    </div>
+    <div class="d-flex justify-content-center h2 mt-5">
+        <strong>total</strong>
+        <span class="cartTotalPrice ml-5">0 $</span>
+    </div>
+    <button class="btn btn-success mx-auto d-block">purchase</button>
+</section>
+
+
+<script src="dist/js/scripts.js"></script>
+<link src="dist/css/bootstrap.min.js">
+<script src="dist/js/popper.min.js"></script>
+<script src="dist/js/jquery-3.3.1.min.js"></script>
+</body>
+</html>
